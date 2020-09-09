@@ -1,0 +1,56 @@
+body{
+    background-color: wheat;
+    text-align: center;
+}
+span{
+    background-color:chocolate;
+    font-size: 3rem;
+   
+    color: aliceblue;
+    text-align: center;
+}
+
+h2{
+    text-decoration-color: aqua;
+    font-family: cursive;
+    background-color: brown;
+}
+.brothers_list{
+    color: teal;
+}
+.menu{
+    position: relative;
+    z-index: 1;
+}
+.weatherRender h2{
+    font-size: 2rem;
+    color: azure;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input {
+    font-size: 2rem;
+    border-style: double;
+    border-width: 3px;
+
+    background-color: cornsilk;
+}
+
+button {
+    
+    background-color: brown;
+    text-align: center;
+    color: beige;
+    transition: transform .2s; 
+    width: 5rem;
+    height: 2rem;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: chocolate;
+  }
+  
+  button:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
