@@ -1,7 +1,7 @@
 [{
-            "name":"aazim",
-            "age":23
-        },{
-            "name":"faisal",
-            "age":22
+    "name": "aazim",
+    "age": 23
+}, {
+    "name": "faisal",
+    "age": 22
 }]
