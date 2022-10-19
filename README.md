@@ -12,8 +12,8 @@
 <a name="introduction"></a>
 
 WEATHER APP is the nodejs application developed by Aazim Parwaz. The App uses HTML, CSS, JAVASCRIPT, HANDLEBARS in the frontend and Express.js ans postman-request module in the backend. The form takes the city name and displays the current temperature in degree Celsius.
-This is the minimalistic information that we get from the JSON data after Calling the API.
-We can further extend it to the humidity, wind speed, minimum temperature, maximum temperature etc. The handlebars help us to render dynamic information and reuse the template.
+This is the minimalistic information that we use out of JSON data after Calling the API.
+We can further extract data of  humidity, wind speed, minimum temperature, maximum temperature etc. The handlebars help us to render dynamic information and reuse the template.
 
 
 ## Asynchronous Node.js
