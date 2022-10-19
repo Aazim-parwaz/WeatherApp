@@ -3,14 +3,31 @@
 ## Table of Contents
 
 1. [Introduction](#Introduction)
-2. [MODULES_USED](#MODULES_USED)
-3. [NODEJS_FILE-SYSTEMS_MODULE](#NODEJS_FILE-SYSTEMS_MODULE)
-4. [CHALK_MODULE](#CHALK_MODULE)
-5. [YARGS_MODULE](#YARGS_MODULE)
+2. [Asynchronous Node.js](#Async_node)
+3. [Web Server](#Web_server)
+4. 
 
 ## introduction
 
 <a name="introduction"></a>
 
-WEATHER APP is the nodejs application developed by Aazim Parwaz. The App uses HTML, CSS, JAVASCRIPT, HANDLEBARS, 
-The App uses command line interface to perform I/O operations. Yargs module customizes/creates the commands in CLI where read,write,delete,update, and find commands are created to perform the operations. The Input taken from command line is store in _yargs.argv()_ in the form of an object. The object is parsed to get the input queries with the data like _title_ and _note_. Then information is stored in .json file using _FILE SYSTEMS MODULE(fs)_. Queries like reading reads the .json file using _fs_ and logs the information in the console. To make data look pleasent to eyes _CHALK MODULE_ is used. _chalk_ adds color, font,etc to the output text.
+WEATHER APP is the nodejs application developed by Aazim Parwaz. The App uses HTML, CSS, JAVASCRIPT, HANDLEBARS in the frontend and Express.js ans postman-request module in the backend. The form takes the city name and displays the current temperature in degree Celsius.
+This is the minimalistic information that we get from the JSON data after Calling the API.
+We can further extend it to the humidity, wind speed, minimum temperature, maximum temperature etc. The handlebars help us to render dynamic information and reuse the template.
+
+
+## Asynchronous Node.js
+
+<a name="Async_node"></>
+
+The APP works with Asynchronous Node.js. HTTP requests are made with Error handling. Two 
+modules are created using callback Abstraction: 1) FORECAST 2)GEOCODE. These modules are
+customized for our need. 
+
+
+## Web Server
+
+<a name="Web_server"></>
+
+Express.js creates web-server with node.js. We create the routes and serve the dynamic pages with templating. We need to set template engine to use handlebars.
+
